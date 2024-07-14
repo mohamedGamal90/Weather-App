@@ -30,7 +30,7 @@ const CityDetailScreen = ({ route }: any) => {
       return;
     }
     fetch(
-      "https://api.openweathermap.org/data/2.5/weather?q=" +
+      "https://api.gi.org/data/2.5/weather?q=" +
         headerName +
         "&appid=" +
         apiKey
